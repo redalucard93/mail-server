@@ -13,14 +13,12 @@ module.exports = {
 		sails.hooks.email.send(
 		 "sendEmail",
 		 {
-			 Name: email.name,
+			 firstname: email.firstname,
+			 lastname: email.lastname,
 			 from: email.from,
 			 to: email.to,
 			 subject: email.subject,
-			 text: email.text,
-			 firstname: email.firstname,
-			 lastname: email.lastname,
-			 tel: email.tel
+			 text: email.text
 		 },
 		 {
 			 from: email.from,

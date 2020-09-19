@@ -18,7 +18,13 @@ module.exports = {
     },
     text: {
       type: 'string'
-    }
+    },
+	firstname: {
+	  type: 'string'
+	},
+	lastname: {
+	  type: 'string'
+	}
   }
 };
 
